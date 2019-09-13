@@ -1,0 +1,67 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 1.2em;
+  margin: 2em;
+}
+
+h2{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+main, footer{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.site-footer{
+  margin-top: 4em;
+  border-top: 1px solid gray;
+  padding-top: 2em;
+}
+
+blockquote{
+  /* Courtesy of css-tricks.com. */
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 2em auto;
+  padding: 0.5em 1em 1em 0;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: '“';
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p, blockquote footer {
+  line-height: 1.5em;
+  padding: 0 40px;
+}
+
+blockquote footer {
+  font-size: 0.9em;
+}
+
+@media (min-width: $site-width-medium){
+  blockquote p {
+    transform: translate(-10px, 0);  
+  }
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+textarea.code{
+  width: 100%;
+  min-height: 3em;
+  padding: 1em;
+  font-family: monospace;
+  font-size: 1.2em;
+}
