@@ -24,7 +24,7 @@ blockquote{
   /* Courtesy of css-tricks.com. */
   background: #f9f9f9;
   border-left: 10px solid #ccc;
-  margin: 2em auto;
+  margin: 2em auto 3em;
   padding: 0.5em 1em 1em 0;
   quotes: "\201C""\201D""\2018""\2019";
 }
@@ -45,6 +45,7 @@ blockquote p, blockquote footer {
 
 blockquote footer {
   font-size: 0.9em;
+  margin-bottom: 1em;  
 }
 
 @media (min-width: $site-width-medium){
