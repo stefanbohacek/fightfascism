@@ -48,12 +48,6 @@ blockquote footer {
   margin-bottom: 1em;  
 }
 
-@media (min-width: $site-width-medium){
-  blockquote p {
-    transform: translate(-10px, 0);  
-  }
-}
-
 iframe{
   display: block;
   margin: 0 auto;
@@ -65,4 +59,24 @@ textarea.code{
   padding: 1em;
   font-family: monospace;
   font-size: 1.2em;
+}
+
+@media (prefers-color-scheme: dark) {
+  body{
+    background: #121212;
+    color: #ffffff;
+  }
+
+  blockquote{
+    /* Courtesy of css-tricks.com. */
+    background: #282828;
+    border-left: 10px solid #3f3f3f;
+  }  
+
+  a{
+    color: #8b8b8b;
+  }
+  a:hover{
+    color: #575757;
+  }
 }
