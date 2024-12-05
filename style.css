@@ -1,26 +1,28 @@
 body {
-  font-family: "Merriweather Sans", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "Merriweather Sans", "Benton Sans", "Helvetica Neue", helvetica,
+    arial, sans-serif;
   font-size: 1.2em;
   margin: 2em;
 }
 
-h2{
+h2 {
   margin-top: 2em;
   margin-bottom: 1em;
 }
 
-main, footer{
+main,
+footer {
   max-width: 960px;
   margin: 0 auto;
 }
 
-.site-footer{
+.site-footer {
   margin-top: 4em;
   border-top: 1px solid gray;
   padding-top: 2em;
 }
 
-blockquote{
+blockquote {
   /* Courtesy of css-tricks.com. */
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -31,29 +33,30 @@ blockquote{
 
 blockquote:before {
   color: #ccc;
-  content: '“';
+  content: "“";
   font-size: 4em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
 
-blockquote p, blockquote footer {
+blockquote p,
+blockquote footer {
   line-height: 1.5em;
   padding: 0 40px;
 }
 
 blockquote footer {
   font-size: 0.9em;
-  margin-bottom: 1em;  
+  margin-bottom: 1em;
 }
 
-iframe{
+iframe {
   display: block;
   margin: 0 auto;
 }
 
-textarea.code{
+textarea.code {
   width: 100%;
   min-height: 3em;
   padding: 1em;
@@ -62,21 +65,26 @@ textarea.code{
 }
 
 @media (prefers-color-scheme: dark) {
-  body{
+  body {
     background: #121212;
     color: #ffffff;
   }
 
-  blockquote{
+  blockquote {
     /* Courtesy of css-tricks.com. */
     background: #282828;
     border-left: 10px solid #3f3f3f;
-  }  
+  }
 
-  a{
+  textarea {
+    background: #282828;
+    color: #ffffff;
+  }
+
+  a {
     color: #8b8b8b;
   }
-  a:hover{
+  a:hover {
     color: #575757;
   }
 }
