@@ -1,4 +1,4 @@
-![Fight Fascism sticker by Angus Johnston](https://cdn.glitch.com/2249eb84-18cb-406f-a492-82a272962e6f%2F1x6fightfascismblack.jpg?v=1568377539004)
+![Fight Fascism sticker by Angus Johnston](/images/ff-black-large.jpg)
 Fight Fascism ✊✊🏼✊🏽✊🏾
 ======================
 
@@ -6,5 +6,5 @@ Make your website anti-fascist with [Angus Johnston](https://twitter.com/student
 
 
 
-- [fightfascism.glitch.me](https://fightfascism.glitch.me/)
-- [related blog post](https://fourtonfish.com/project/fight-fascism)
+- [fightfascism.neocities.org](https://fightfascism.neocities.org/)
+- [related blog post](https://stefanbohacek.com/project/fight-fascism)
