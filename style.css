@@ -64,6 +64,17 @@ textarea.code {
   font-size: 1.2em;
 }
 
+.video-container {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background: #121212;
